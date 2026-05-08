@@ -18,3 +18,19 @@ The learning is structured to be taken in four days per week, with a 2-hours foc
 | Day 3         | 2 Hours     | Deliberate practice, attempt the weekly project from scratch without looking the tutorial. |
 | Day 4         | 2 Hours     | Refinement and Automation. Clean your code, push it to Github, and document your flow.|
 
+2. #### Weekly Structure
+
+| Weeks                         | Tasks                         | Concepts                      |
+|-------------------------------|---------------------------------|-------------------------------|
+| Week 1                        | The Enviroment and python     |  Variables, loops, funtions, list, and dictionaries|
+| Week 2                        | The Art of Pattern Matching   | Regular Expression for linguistic pattern |
+| Week 3                        |                               |                               |
+| Week 4                        |                               |                               |
+| Week 5                        |                               |                               |
+| Week 6                        |                               |                               |
+| Week 7                        |                               |                               |
+| Week 8                        |                               |                               |
+| Week 9                        |                               |                               |
+| Week 10                       |                               |                               |
+| Week 11                       |                               |                               |
+| Week 12                       |                               |                               |
