@@ -20,17 +20,17 @@ The learning is structured to be taken in four days per week, with a 2-hours foc
 
 2. #### Weekly Structure
 
-| Weeks                         | Tasks                         | Concepts                      |
-|-------------------------------|---------------------------------|-------------------------------|
+| Weeks                         | Tasks                         | Concepts 
+|-------------------------------|--------------------------------|-------------------------------|
 | Week 1                        | The Enviroment and python     |  Variables, loops, funtions, list, and dictionaries|
 | Week 2                        | The Art of Pattern Matching   | Regular Expression for linguistic pattern |
-| Week 3                        |                               |                               |
-| Week 4                        |                               |                               |
-| Week 5                        |                               |                               |
-| Week 6                        |                               |                               |
-| Week 7                        |                               |                               |
-| Week 8                        |                               |                               |
-| Week 9                        |                               |                               |
-| Week 10                       |                               |                               |
-| Week 11                       |                               |                               |
-| Week 12                       |                               |                               |
+| Week 3                        | Handling the Materials (File I/O)| Navigating and parsing CSV, TXT, Excel, and JSONfile   |
+| Week 4                        | Data Manipulation Mastery     |  DataFrame, cleaning datasets,handling missing data |
+| Week 5                        | Corpus Analysis & Concordances |Frequency distributions, collocations, Key Word In Context (KWIC) |
+| Week 6 | The Basics – Tokenization & POS Tagging |Splitting text into meaningful units and identifying grammatical parts of speech.  |
+| Week 7                        | Entity Recognition & Text Classification |Named Entity Recognition (NER) and categorizing texts.  |
+| Week 8                        | Automation of Linguistic Tasks  | Scripting end-to-end pipelines.|
+| Week 9                        | The Sound of Language |Audio waveforms, spectrograms, pitch tracking.|
+| Week 10                       | The Era of Transformers| Utilizing pre-trained LLMs and sequence-to-sequence models. |
+| Week 11                       | AI Annotation & Localization Workflows |Data formatting for AI training, managing localization pipelines. |
+| Week 12                       | Dataset QA & Final Portfolio |Quality assurance algorithms, final integration. |
