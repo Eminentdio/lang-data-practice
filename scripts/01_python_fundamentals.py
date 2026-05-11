@@ -1,25 +1,19 @@
-input_text = "Àwọn àpólà méjéèjì yẹn ni àkòrí wa " \
-"kó sínú nítorí pé ohun tí ó ń mú ìgbéyàwó gbópọn nìyẹn. " \
-"Nínú ìgbéyàwó nígbà tí kò bá sí ìfẹ́  àti àánú wàyìí ọkọ àti " \
-"ìyàwó náà ti kúrò ní lọ́kọláyà, wọ́n kàn ń tanra wọn jẹ lásán ni " \
-"nítorí pé ohun tí ó jẹ́ ọ̀pákùtẹ̀lẹ̀ ìgbéyàwó wọn ni wọ́n ti ṣàfẹ́kù " \
-"rẹ̀ yẹn èyí gan-an sì ni ìdí tí Ọlọ́run fi sọ pé kí wọ́n fẹ́ra. "
+def analyze_text(raw_text):
+    """
+    This function will take a raw string of texts, convert
+    it to lowercase, and a dictionary of character frequencies,
+    ignoring number and punctuations.
 
+    """
 
-tokenized_text = input_text.split()
+    char_frequency = {}             # an empty dictionary to hold the character frequencies
 
-print("====Source texts====")
-print(tokenized_text)
+    for char in raw_text.lower():   # loop through the raw text and convert to lowercase
 
-char_frequency = {}
-
-for char in input_text.lower():
-    if char.isalpha():
-
-        if char in char_frequency:
-            char_frequency[char] = char_frequency[char] + 1
-        else:
-            char_frequency[char] = 1
-
-print("====Distributed Character====")
-print(char_frequency)
+        if char.isalpha():          # check if the character are letters
+            if char in char_frequency:       # if the character is already in our dictionary add 1 to the count
+                char_frequency[char] = char_frequency[char] + 1
+            else:       # if we have not seen this character yet, add it to the dictionary bucket with a count of 1
+                char_frequency[char] = 1
+        
+    return char_frequency
