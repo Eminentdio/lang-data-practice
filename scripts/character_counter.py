@@ -4,10 +4,6 @@ def analyze_text(raw_text):
     it to lowercase, and a dictionary of character frequencies,
     ignoring number and punctuations.
 
-    C:\Users\User\.local\bin 
-
-     Next: Run claude --help to get started
-
     """
 
     char_frequency = {}             # an empty dictionary to hold the character frequencies
