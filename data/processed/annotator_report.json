@@ -1,0 +1,20 @@
+{
+    "email": [
+        "reviewer.one@linguistics.org",
+        "qa_team@institute.edu"
+    ],
+    "date": [
+        "23/10/2026"
+    ],
+    "tones": [
+        "ẹ",
+        "kàárọ",
+        "ọ",
+        "pákùtẹ",
+        "lẹ"
+    ],
+    "tags": [
+        "[GREETING]",
+        "[SYNTAX_ERROR]"
+    ]
+}

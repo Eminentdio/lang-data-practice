@@ -1,3 +1,5 @@
+import json
+
 from character_counter import analyze_text
 from data_extractor import parse_annotator_raw
 
@@ -23,3 +25,10 @@ print("\n==========\n")
 print("Character count for the extracted dictionary: ")
 print(extracted_token)
 print("\n==========\n")
+
+
+output_file_path = "../data/processed/annotator_report.json"
+with open(output_file_path, "w", encoding = "utf-8") as json_file:
+    json.dump(extractor, json_file, ensure_ascii=False, indent=4)
+
+print(f"\nSuccess! Data is saved to {output_file_path}")
