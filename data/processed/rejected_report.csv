@@ -1,0 +1,8 @@
+text_id,raw_text,source_url,is_valid,rejection_reason
+101,Modern natural language processing models require clean and diverse datasets to generalize effectively.,https://linguistics-journal.org/article1,False,NO_VALID_PREDICATE
+102,buy cheap shoes online discount running sneakers footwear clearance sale wholesale,https://spam-store-deals.biz,False,NO_VALID_PREDICATE
+103,Under the heavy wooden table near the back entrance.,https://scraped-forum.net/post/92,False,NO_VALID_PREDICATE
+104,The researchers evaluated three transformer architectures across low-resource dialects.,https://arxiv-mirror.org/abs/2401,False,NO_VALID_PREDICATE
+105,$$$ === >>> ERROR 404 !!! @@@ @@@ %%% *** ###,https://broken-crawler.com/log,False,HIGH_SYMBOL_NOISE
+106,Comprehensive morphological analysis reveals significant dialectal variation across regions.,https://linguistics-journal.org/article2,False,NO_VALID_PREDICATE
+107,best python courses tutorial learn coding fast free download 2026,https://course-aggregator.io,False,NO_VALID_PREDICATE
